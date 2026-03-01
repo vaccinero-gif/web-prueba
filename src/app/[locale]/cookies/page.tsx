@@ -1,0 +1,1 @@
+export default function Page(){return <div className='container-main'><article className='card'><h1 className='text-3xl font-semibold'>Cookies</h1><p className='mt-3'>This page provides baseline GDPR-oriented information and will be finalized with legal review.</p></article></div>}

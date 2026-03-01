@@ -1,0 +1,2 @@
+import {readContent} from '@/lib/site.server';
+export default async function About({params}:{params:{locale:string}}){const d=await readContent<any>(params.locale,'site.json');return <div className='container-main'><article className='card'><h1 className='text-3xl font-semibold'>{d.about.title}</h1>{d.about.body.map((p:string)=><p className='mt-3' key={p}>{p}</p>)}<p className='mt-4 text-sm text-slate-600'>{d.about.disclaimer}</p></article></div>}

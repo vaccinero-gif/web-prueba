@@ -1,0 +1,2 @@
+import {readContent} from '@/lib/site.server';
+export default async function Glossary({params}:{params:{locale:string}}){const d=await readContent<any>(params.locale,'site.json');return <div className='container-main'><h1 className='text-3xl font-semibold mb-6'>Glossary</h1><div className='grid gap-3 md:grid-cols-2'>{d.glossary.map((t:any)=><article className='card' key={t.term}><h2 className='font-semibold'>{t.term}</h2><p className='text-sm'>{t.def}</p></article>)}</div></div>}
