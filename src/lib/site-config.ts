@@ -1,4 +1,4 @@
-import {AppLocale, routing} from '@/i18n/routing';
+import {routing, type AppLocale} from '@/i18n/routing';
 
 export const site = {
   name: 'Iberia Atlantic Advisors',
@@ -17,5 +17,5 @@ export const localeLabels: Record<AppLocale, string> = {
 };
 
 export function localeAlternates(pathname: string) {
-  return Object.fromEntries(routing.locales.map((loc) => [loc, `${site.url}/${loc}${pathname}`]));
+  return Object.fromEntriesrouting.locales.map((loc: AppLocale) => [loc, ...]) => [loc, `${site.url}/${loc}${pathname}`]));
 }
