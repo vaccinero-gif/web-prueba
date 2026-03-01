@@ -1,0 +1,2 @@
+'use client';import {useState} from 'react';
+export default function Page(){const [complexity,set]=useState(1);const min=400+complexity*250;const max=min+600;return <div className='container-main'><div className='card'><h1 className='text-3xl font-semibold'>Fee estimate range widget</h1><input type='range' min='1' max='5' value={complexity} onChange={e=>set(+e.target.value)} /><p>Estimated range: €{min}–€{max}</p><p className='text-sm'>Non-binding estimate. Final fees depend on scope and engagement terms.</p></div></div>}
