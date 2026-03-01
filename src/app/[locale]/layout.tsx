@@ -21,8 +21,7 @@ export async function generateMetadata({params}: {params: {locale: string}}): Pr
 }
 
 export function generateStaticParams() {
-  return routing.locales.map((locale) => ({locale}));
-}
+ return routing.locales.map((locale: AppLocale) => ({locale}));
 
 export default async function LocaleLayout({children, params}: {children: React.ReactNode; params: {locale: string}}) {
   if (!routing.locales.includes(params.locale as never)) notFound();
