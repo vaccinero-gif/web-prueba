@@ -1,7 +1,7 @@
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
-import {routing} from '@/i18n/routing';
+import {routing, type AppLocale} from '@/i18n/routing';
 import Shell from '@/components/Shell';
 import {localeAlternates, site} from '@/lib/site-config';
 import type {Metadata} from 'next';
@@ -21,7 +21,8 @@ export async function generateMetadata({params}: {params: {locale: string}}): Pr
 }
 
 export function generateStaticParams() {
- return routing.locales.map((locale: AppLocale) => ({locale}));
+  return routing.locales.map((locale: AppLocale) => ({locale}));
+}
 
 export default async function LocaleLayout({children, params}: {children: React.ReactNode; params: {locale: string}}) {
   if (!routing.locales.includes(params.locale as never)) notFound();
