@@ -1,7 +1,7 @@
 'use client';
 
 import {usePathname, useRouter} from 'next/navigation';
-import {routing} from '@/i18n/routing';
+import {routing, type AppLocale} from '@/i18n/routing';
 import {localeLabels} from '@/lib/site-config';
 
 export default function LanguageSwitcher({locale}: {locale: string}) {
@@ -26,7 +26,7 @@ export default function LanguageSwitcher({locale}: {locale: string}) {
         value={locale}
         onChange={(e) => changeLocale(e.target.value)}
       >
-        {routing.locales.map((loc) => (
+        routing.locales.map((loc: AppLocale) => (
           <option key={loc} value={loc}>{localeLabels[loc]}</option>
         ))}
       </select>
