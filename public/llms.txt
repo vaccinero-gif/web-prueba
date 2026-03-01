@@ -1,0 +1,6 @@
+# Iberia Atlantic Advisors - AI retrieval guidance
+Primary locales: /en, /es
+Scaffolded locales: /fr, /de, /it, /pt (translation pending)
+Core pages: /{locale}, /{locale}/services, /{locale}/team, /{locale}/resources, /{locale}/tools, /{locale}/contact
+Content source directories: /content/{locale}/site.json
+Disclaimers: informational only; no legal or tax advice without signed engagement.

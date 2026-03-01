@@ -1,0 +1,287 @@
+{
+  "translationNeeded": true,
+  "message": "Translation needed for this locale.",
+  "home": {
+    "headline": "Cross-border clarity for life and business in Spain",
+    "sub": "Boutique advisory for US persons in Spain and international clients.",
+    "cta": "Book an Intro Call"
+  },
+  "about": {
+    "title": "About Iberia Atlantic Advisors",
+    "body": [
+      "We are a Madrid-based advisory team supporting foreigners and international businesses operating in Spain.",
+      "Our work combines tax strategy, compliance coordination, and practical execution with trusted external specialists."
+    ],
+    "disclaimer": "We are an advisory practice and coordinate with licensed professionals where required."
+  },
+  "services": [
+    {
+      "slug": "us-spain-individual-tax",
+      "title": "US/Spain Individual Tax",
+      "summary": "Dual-country planning and annual filing coordination."
+    },
+    {
+      "slug": "business-cross-border",
+      "title": "US/Spain Business Tax & Structuring",
+      "summary": "High-level structuring and cross-border tax coordination for growing companies."
+    },
+    {
+      "slug": "compliance-packages",
+      "title": "Annual Compliance Packages",
+      "summary": "Calendar-based support for recurring Spain and US obligations."
+    },
+    {
+      "slug": "real-estate",
+      "title": "Real Estate in Spain for Foreigners",
+      "summary": "Tax analysis and transaction coordination for purchases, rentals, and exits."
+    },
+    {
+      "slug": "gestoria-accounting",
+      "title": "Gestoría & Accounting Support",
+      "summary": "Operational filings, bookkeeping, and agency representation support."
+    },
+    {
+      "slug": "non-us-foreigners",
+      "title": "Non-US Foreigners: Tax & Coordination",
+      "summary": "General tax guidance and local coordination for non-US residents and families."
+    }
+  ],
+  "team": [
+    {
+      "name": "Daniel Mercer",
+      "role": "Managing Director, Cross-Border Economics",
+      "bio": "US economist in Madrid; former Big Four advisor in the US and Spain with finance leadership in energy companies.",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "expertise": [
+        "Cross-border tax planning",
+        "Executive advisory"
+      ]
+    },
+    {
+      "name": "Lucía Gómez, Abogada",
+      "role": "Spanish Tax Counsel",
+      "bio": "Spanish tax lawyer focused on personal and corporate taxation, procedures, and tax controversy support.",
+      "languages": [
+        "Spanish",
+        "English"
+      ],
+      "expertise": [
+        "Spanish tax law",
+        "Tax procedures"
+      ]
+    },
+    {
+      "name": "Elena Ruiz",
+      "role": "Head of Compliance Operations",
+      "bio": "Coordinates annual filing workflows and document tracking for international households.",
+      "languages": [
+        "Spanish",
+        "English"
+      ],
+      "expertise": [
+        "Compliance operations",
+        "Workflow design"
+      ]
+    },
+    {
+      "name": "Mark Delgado",
+      "role": "US Tax Manager",
+      "bio": "Supports federal filing readiness and multi-jurisdiction reporting for US taxpayers abroad.",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "expertise": [
+        "US expat filings",
+        "Information returns"
+      ]
+    },
+    {
+      "name": "Paula Serrano",
+      "role": "Real Estate Tax Specialist",
+      "bio": "Advises foreign buyers on transaction taxes, ownership structures, and recurring obligations.",
+      "languages": [
+        "Spanish",
+        "English"
+      ],
+      "expertise": [
+        "Property taxes",
+        "Transaction planning"
+      ]
+    },
+    {
+      "name": "Iván Castillo",
+      "role": "Gestoría Lead",
+      "bio": "Manages local registrations, certificates, and agency interactions with public bodies.",
+      "languages": [
+        "Spanish",
+        "English"
+      ],
+      "expertise": [
+        "Gestoría",
+        "Public administration"
+      ]
+    },
+    {
+      "name": "Claire Bishop",
+      "role": "International Mobility Advisor",
+      "bio": "Designs relocation compliance roadmaps for executives and families.",
+      "languages": [
+        "English",
+        "Spanish"
+      ],
+      "expertise": [
+        "Mobility planning",
+        "Residency coordination"
+      ]
+    },
+    {
+      "name": "Sofía Martín",
+      "role": "Client Success Manager",
+      "bio": "Primary contact for onboarding, scheduling, and multi-provider coordination.",
+      "languages": [
+        "Spanish",
+        "English"
+      ],
+      "expertise": [
+        "Client onboarding",
+        "Project coordination"
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "slug": "first-year-us-person-spain",
+      "title": "First-year roadmap for US persons moving to Spain",
+      "updated": "2026-01-15",
+      "body": "A month-by-month framework covering residency status, registration priorities, and tax calendar checkpoints."
+    },
+    {
+      "slug": "beckham-regime-basics",
+      "title": "Beckham regime basics: who should assess eligibility",
+      "updated": "2026-01-10",
+      "body": "High-level overview of eligibility factors, deadlines, and coordination points before applying."
+    },
+    {
+      "slug": "spanish-tax-residency-tests",
+      "title": "Spanish tax residency tests explained",
+      "updated": "2026-01-06",
+      "body": "Breakdown of day-count, center of interests, and practical evidence taxpayers should maintain."
+    },
+    {
+      "slug": "renting-buying-spain-tax",
+      "title": "Tax considerations when renting or buying in Spain",
+      "updated": "2026-01-04",
+      "body": "Key taxes and filing implications for residents and non-residents acquiring Spanish property."
+    },
+    {
+      "slug": "us-spain-business-expansion",
+      "title": "US company expanding to Spain: first tax questions",
+      "updated": "2025-12-28",
+      "body": "Initial checklist for permanent establishment risk, VAT, payroll, and governance coordination."
+    },
+    {
+      "slug": "annual-compliance-calendar",
+      "title": "Annual compliance calendar for international families",
+      "updated": "2025-12-20",
+      "body": "How to organize documentation, milestones, and advisor handoffs for smoother annual filing."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you provide legal representation in court?",
+      "a": "No. We provide advisory coordination and collaborate with licensed professionals for representation when needed."
+    },
+    {
+      "q": "FAQ question 2",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 3",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 4",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 5",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 6",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 7",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 8",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 9",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 10",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 11",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 12",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 13",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 14",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    },
+    {
+      "q": "FAQ question 15",
+      "a": "This answer provides practical context and reminds readers that advice depends on formal engagement."
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Tax residency",
+      "def": "Status determining where a person is primarily taxed."
+    },
+    {
+      "term": "Modelo 100",
+      "def": "Spanish personal income tax return form."
+    },
+    {
+      "term": "Modelo 720",
+      "def": "Informative declaration for certain foreign assets."
+    },
+    {
+      "term": "FBAR",
+      "def": "US foreign bank account report."
+    },
+    {
+      "term": "Permanent establishment",
+      "def": "A taxable business presence in another jurisdiction."
+    }
+  ],
+  "caseStudies": [
+    {
+      "title": "US executive relocation",
+      "summary": "Coordinated Spain onboarding, US filing prep, and payroll alignment in first 90 days."
+    },
+    {
+      "title": "Family property purchase",
+      "summary": "Structured tax review and notary timeline coordination for a Madrid purchase."
+    }
+  ]
+}
