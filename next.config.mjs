@@ -4,6 +4,6 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 export default withNextIntl({
   experimental: {
-    typedRoutes: true
+    typedRoutes: false
   }
 });
