@@ -1,4 +1,4 @@
-import {readContent} from '@/lib/site';
+import {readContent} from '@/lib/site.server';
 
 export default async function Page({params}:{params:{locale:string}}){
  const data=await readContent<any>(params.locale,'site.json');

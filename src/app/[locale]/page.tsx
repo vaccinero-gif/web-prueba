@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import {getTranslations} from 'next-intl/server';
-import {readContent, site} from '@/lib/site';
+import {site} from '@/lib/site-config';
+import {readContent} from '@/lib/site.server';
 
 export default async function Home({params}:{params:{locale:string}}) {
   const data = await readContent<any>(params.locale, 'site.json');

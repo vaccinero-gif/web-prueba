@@ -1,2 +1,2 @@
-import {readContent} from '@/lib/site';
+import {readContent} from '@/lib/site.server';
 export default async function FAQ({params}:{params:{locale:string}}){const d=await readContent<any>(params.locale,'site.json');const schema={"@context":"https://schema.org","@type":"FAQPage",mainEntity:d.faq.map((f:any)=>({"@type":"Question",name:f.q,acceptedAnswer:{"@type":"Answer",text:f.a}}))};return <div className='container-main'><script type='application/ld+json' dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/><h1 className='text-3xl font-semibold mb-6'>FAQ</h1><div className='space-y-3'>{d.faq.map((f:any,i:number)=><details key={i} className='card'><summary className='font-semibold'>{f.q}</summary><p className='mt-2 text-sm'>{f.a}</p></details>)}</div></div>}

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import LanguageSwitcher from './LanguageSwitcher';
-import {site} from '@/lib/site';
+import {site} from '@/lib/site-config';
 
 export default function Shell({locale, children}: {locale: string; children: React.ReactNode}) {
   const nav = [

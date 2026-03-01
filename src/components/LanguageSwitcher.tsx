@@ -2,7 +2,7 @@
 
 import {usePathname, useRouter} from 'next/navigation';
 import {routing} from '@/i18n/routing';
-import {localeLabels} from '@/lib/site';
+import {localeLabels} from '@/lib/site-config';
 
 export default function LanguageSwitcher({locale}: {locale: string}) {
   const pathname = usePathname();

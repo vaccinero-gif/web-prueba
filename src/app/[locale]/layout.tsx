@@ -3,7 +3,7 @@ import {getMessages} from 'next-intl/server';
 import {notFound} from 'next/navigation';
 import {routing} from '@/i18n/routing';
 import Shell from '@/components/Shell';
-import {localeAlternates, site} from '@/lib/site';
+import {localeAlternates, site} from '@/lib/site-config';
 import type {Metadata} from 'next';
 
 export async function generateMetadata({params}: {params: {locale: string}}): Promise<Metadata> {

@@ -51,6 +51,11 @@ To connect email later, replace `console.log` with provider integration (e.g., S
 1. Add locale code in `src/i18n/routing.ts`.
 2. Create `messages/{locale}.json`.
 3. Duplicate `content/en/site.json` to `content/{locale}/site.json` and translate.
-4. Ensure locale is included in hreflang/canonical generation (`src/lib/site.ts` + locale layout).
+4. Ensure locale is included in hreflang/canonical generation (`src/lib/site-config.ts` + locale layout).
 5. Regenerate `public/sitemap.xml` to include new locale routes.
 6. Run checks: `npm run build`.
+
+
+## Build note (server/client boundaries)
+- Client components must import only from `src/lib/site-config.ts` (no filesystem access).
+- Disk content loading is server-only in `src/lib/site.server.ts` with `import 'server-only'`.
