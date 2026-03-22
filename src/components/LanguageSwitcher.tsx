@@ -26,7 +26,7 @@ export default function LanguageSwitcher({locale}: {locale: string}) {
         value={locale}
         onChange={(e) => changeLocale(e.target.value)}
       >
-        routing.locales.map((loc: AppLocale) => (
+         {routing.locales.map((loc: AppLocale) => (
           <option key={loc} value={loc}>{localeLabels[loc]}</option>
         ))}
       </select>
