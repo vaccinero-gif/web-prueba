@@ -17,5 +17,7 @@ export const localeLabels: Record<AppLocale, string> = {
 };
 
 export function localeAlternates(pathname: string) {
-  return Object.fromEntriesrouting.locales.map((loc: AppLocale) => [loc, ...]) => [loc, `${site.url}/${loc}${pathname}`]));
+  return Object.fromEntries(
+    routing.locales.map((loc: AppLocale) => [loc, `${site.url}/${loc}${pathname}`])
+  );
 }
