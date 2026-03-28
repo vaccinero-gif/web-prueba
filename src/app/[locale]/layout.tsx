@@ -6,6 +6,8 @@ import Shell from '@/components/Shell';
 import {localeAlternates, site} from '@/lib/site-config';
 import type {Metadata} from 'next';
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata({params}: {params: {locale: string}}): Promise<Metadata> {
   const locale = params.locale;
   if (!routing.locales.includes(locale as never)) return {};
